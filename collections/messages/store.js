@@ -1,6 +1,6 @@
 const db = require("mongoose")
 const model = require("./model")
-db.connect("mongodb+srv://moises:moises1981frasier@clases-uhn67.mongodb.net/chat", { useNewUrlParser: true, useUnifiedTopology: true } )
+db.connect("mongodb+srv://moises:<pass>@clases-uhn67.mongodb.net/chat", { useNewUrlParser: true, useUnifiedTopology: true } )
 console.log("Conectado a DB Chat");
 
 
